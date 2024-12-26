@@ -34,7 +34,9 @@ python3 -m pip install --upgrade pip
 pip install -r requirements.txt  
 ```
 
-Запустить бот: 
+Файл .env должен содержать одну переменную TOKEN_TG_BOT - разместите этот файл в корне проекта. Создайте бота и получите токен через BotFather в telegram, полученный токен присвойте переменной TOKEN_TG_BOT.
+
+Далее запустить бот: 
 
 ```
 python main.py 
